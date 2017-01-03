@@ -1,0 +1,6 @@
+framework module DZExtendResponse {
+  umbrella header "DZExtendResponse-umbrella.h"
+
+  export *
+  module * { export * }
+}
