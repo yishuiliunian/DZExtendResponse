@@ -8,7 +8,7 @@
 
 #import "DZExtendResponseView.h"
 #import <objc/runtime.h>
-#import <MRLogicInjection.h>
+#import <MRLogicInjection/MRLogicInjection.h>
 static void * kDZExtendResponseInset = &kDZExtendResponseInset;
 
 NSString* const kDZExtendRClassKey  = @"__extend_response";
