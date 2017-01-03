@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/DZExtendResponse/DZExtendResponse.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MRLogicInjection/MRLogicInjection.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/DZExtendResponse/DZExtendResponse.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MRLogicInjection/MRLogicInjection.framework"
 fi

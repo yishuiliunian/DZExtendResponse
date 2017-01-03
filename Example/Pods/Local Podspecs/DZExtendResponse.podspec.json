@@ -1,9 +1,9 @@
 {
   "name": "DZExtendResponse",
   "version": "0.1.0",
-  "summary": "A short description of DZExtendResponse.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/DZExtendResponse",
+  "summary": "Easy way to extend the response area of view",
+  "description": "Easy way to extend the response area of view, use it free. No subclass , no class dirty.",
+  "homepage": "https://github.com/yishuiliunian/DZExtendResponse",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "yishuiliunian": "yishuiliunian@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/DZExtendResponse.git",
+    "git": "https://github.com/yishuiliunian/DZExtendResponse.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "6.0"
   },
-  "source_files": "DZExtendResponse/Classes/**/*"
+  "source_files": "DZExtendResponse/Classes/**/*",
+  "dependencies": {
+    "MRLogicInjection": [
+
+    ]
+  }
 }

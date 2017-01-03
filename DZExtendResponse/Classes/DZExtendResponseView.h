@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MRLogicInjection.h>
 
 /* 扩展执行View的响应区域
  * @params aView 需要扩展响应区域的View的实例

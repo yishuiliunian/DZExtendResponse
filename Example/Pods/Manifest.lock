@@ -1,10 +1,12 @@
 PODS:
-  - DZExtendResponse (0.1.0)
+  - DZExtendResponse (0.1.0):
+    - MRLogicInjection
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - MRLogicInjection (0.1.1)
 
 DEPENDENCIES:
   - DZExtendResponse (from `../`)
@@ -15,8 +17,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DZExtendResponse: 22592ce96a4008a65126ae12b4bb0fbb7a019cf6
+  DZExtendResponse: a04a4ad58f86e7e8c018bb586e970afd5c702a4e
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MRLogicInjection: eb364755db07fbbc60946f99affc4c968accadd6
 
 PODFILE CHECKSUM: eca8f79c4b315e38b089e2607f3b6a0e556e7fb6
 
