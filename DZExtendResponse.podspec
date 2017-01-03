@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DZExtendResponse'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Easy way to extend the response area of view'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,8 @@ Easy way to extend the response area of view, use it free. No subclass , no clas
 
   s.ios.deployment_target = '6.0'
 
-  s.source_files = 'DZExtendResponse/Classes/**/*'
+  s.source_files = 'DZExtendResponse/Classes/**/*
+
 
   # s.resource_bundles = {
   #   'DZExtendResponse' => ['DZExtendResponse/Assets/*.png']
