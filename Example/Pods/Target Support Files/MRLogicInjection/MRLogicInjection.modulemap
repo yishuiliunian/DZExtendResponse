@@ -1,6 +1,0 @@
-framework module MRLogicInjection {
-  umbrella header "MRLogicInjection-umbrella.h"
-
-  export *
-  module * { export * }
-}

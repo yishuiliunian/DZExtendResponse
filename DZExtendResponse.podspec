@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Easy way to extend the response area of view, use it free. No subclass , no class dirty.
+  Easy way to extend the response area of view, use it free. No subclass , no class dirty.
                        DESC
 
   s.homepage         = 'https://github.com/yishuiliunian/DZExtendResponse'
@@ -29,15 +29,6 @@ Easy way to extend the response area of view, use it free. No subclass , no clas
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '6.0'
-
-  s.source_files = 'DZExtendResponse/Classes/**/*
-
-
-  # s.resource_bundles = {
-  #   'DZExtendResponse' => ['DZExtendResponse/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.source_files = 'DZExtendResponse/Classes/**/*'
   s.dependency 'MRLogicInjection'
 end

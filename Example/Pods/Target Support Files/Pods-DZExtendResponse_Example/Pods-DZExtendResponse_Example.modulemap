@@ -1,6 +1,0 @@
-framework module Pods_DZExtendResponse_Example {
-  umbrella header "Pods-DZExtendResponse_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
