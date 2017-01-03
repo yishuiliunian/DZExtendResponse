@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DZExtendResponse_Example' do
+  pod 'DZExtendResponse', :path => '../'
+
+  target 'DZExtendResponse_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
