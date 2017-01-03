@@ -38,5 +38,5 @@ Easy way to extend the response area of view, use it free. No subclass , no clas
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'MRLoginInjection'
+  s.dependency 'MRLogicInjection'
 end

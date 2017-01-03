@@ -19,6 +19,20 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "DZExtendResponse"
 ```
+## Usage
+
+Just One Line Code.
+
+一行代码实现扩展View的相应区域。
+
+
+~~~
+/* 扩展执行View的响应区域
+ * @params aView 需要扩展响应区域的View的实例
+ * @params inset 扩展区域的大小（增量部分）
+ * */
+void DZExtendResponse(UIView* aView, UIEdgeInsets inset);
+~~~
 
 ## Author
 
